@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+	background-color: #efefef;
+
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.photo{
+	background-color: orange;
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	transition: all 0.5s ease;
+	border: 2px gold;
+	border-radius: 200px;
+	box-shadow: 2px 2px red;
+}
+.photo:hover{
+	transform: rotate(360deg) scale(3.07);
+}
+
+.photo1{
+	background-image: url(../images/воркаут.jpg);
+	background-size: 100%;
+}
+.photo2{  
+	background-image: url(../images/воркаут2.jpg);
+	background-size: 100%;
+}
+.photo3{
+	background-image: url(../images/воркаут3.jpg);
+	background-size: 100%;
+}
+.photo4{
+	background-image: url(../images/понедельник.jpg);
+	background-size: 100%
+}
+.photo5{
+	background-image: url(../images/вторник.jpg);
+	background-size: 100%
+}
+.photo6{
+	background-image: url(../images/среда.jpg);
+	background-size: 100%
+}
+.photo7{
+	background-image: url(../images/четверг.jpg);
+	background-size: 100%
+}
+.photo8{
+	background-image: url(../images/пятница.jpg);
+	background-size: 100%
+}
+.photo9{
+	background-image: url(../images/суббота.jpg);
+	background-size: 100%
+}
+.photo10{
+	background-image: url(../images/image4.jpg);
+	background-size: 100%
+}
+.photo11{
+	background-image: url(../images/image3.jpg);
+	background-size: 100%
+}
+.photo12{
+	background-image: url(../images/image2.jpg);
+	background-size: 100%
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	color: white;
+}
